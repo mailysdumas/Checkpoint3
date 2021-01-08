@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\MAILYS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MAILYS\\.nuget\\packages"
+    ]
+  }
+}

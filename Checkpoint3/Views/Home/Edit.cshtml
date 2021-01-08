@@ -1,0 +1,35 @@
+﻿@using Checkpoint3.Models;
+@using Microsoft.AspNetCore.Identity
+<section class="contact-form-section">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="title-column col-lg-4 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <div class="sec-title">
+                        <h2>Créer vos annonces</h2>
+                    </div>
+                    <div class="text">A vous de jouer !</div>
+                </div>
+            </div>
+            <div class="form-column col-lg-8 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <div class="default-form style-two">
+                        <form method="POST" action="/Pages/Send">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <input type="text" name="Title" placeholder="Titre" required>
+                                </div>
+                                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                                    <textarea name="Content" placeholder="Tapez ici votre annonce"></textarea>
+                                </div>
+                                <div class="form-group clearfix col-lg-12 col-md-12 col-sm-12">
+                                    <div class="btn-three-outer"><button class="theme-btn btn-style-three" type="submit" name="ENVOYER"><span class="txt">ENVOYER</span></button></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
